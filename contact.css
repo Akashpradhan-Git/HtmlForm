@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #00bc3faf, hsla(246, 75%, 56%, 0.502));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+section{
+    max-width: 700px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.274);
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+}
+form{
+    position: relative;
+}
+fieldset{
+    padding: 10px;
+    margin: 10px;
+}
+legend{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-section{
+    margin: 10px;
+}
+.form-section .warp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.input-box .details{
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.input-box .details span{
+    color: red;
+    font-size: 17px;
+}
+
+.form-section .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+}
+input[type=text],select{
+    width: 100%;
+    height: 35px;
+    margin-top:3px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    border-color: #00bc3faf;
+}
+form .msg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+.input-box{
+    width: calc(100% / 2 - 10px);
+}
+form .msg select{
+    width: 90%;
+    border: 2px solid #00bc3faf;
+}
+optgroup{
+    background: #00abfaaf;
+}
+option{
+    background-color: #00bc3faf;
+}
+textarea{
+    width: 100%;
+    border: 2px solid #00bc3faf;
+    font-size: 14px;
+    outline: none;
+}
+.btn{
+    display: flex;
+    
+}
+input[type=button]
+{
+    margin-left: 430px;
+    right: 10px;
+    background-color: #00bc3faf;
+    font-size: 20px;
+    border: 1px solid #00bc3faf;
+    border-radius: 10px;
+    outline: #00bc3faf;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+input[type=reset]
+{
+    margin-left: 15px;
+    right: 10px;
+    background-color: #00bc3faf;
+    font-size: 20px;
+    border: 1px solid #00bc3faf;
+    border-radius: 10px;
+    outline: #00bc3faf;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+input[type=button]:hover,input[type=reset]:hover{
+    background-color: hsla(246, 75%, 56%, 0.502);
+}

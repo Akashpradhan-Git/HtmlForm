@@ -1,0 +1,125 @@
+
+body{
+    background: linear-gradient(to right, #00bc3faf, #4b3ae380);
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   padding: 10px;
+}
+
+section{
+    max-width: 700px;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.329);
+    box-shadow: 5px 5px 10px 3px grey;
+    padding: 30px 40px;
+    border-radius: 5px;
+    
+}
+.contact{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+section .contact::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    height: 3px;
+    width: 25px;
+    background-color: black;
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    margin-bottom: 25px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+   padding: 3px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: 2px solid wheat;
+   outline: none;
+}
+
+.user-details .input-box .details{
+    font-size: 18px;
+    display: block;
+    margin-bottom:5px;
+    margin-left: 5px;
+}
+
+
+.gender .title{
+    font-size: 18px;
+
+}
+.gen-con{
+    display: flex;
+    justify-content: space-around;
+}
+input[type=button]{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(10, 226, 39);
+    width: 100%;
+}
+
+select{
+    height: 45px;
+    width: 100%;
+   padding: 3px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: 2px solid rgba(0, 0, 0, 0.219);
+   outline: none;
+}
+
+
+option{
+    background-color: white;
+    font-size: 16px;
+    background-color: #00bc3f60;
+    
+}
+
+@media(max-width:700px)
+{
+    section{
+        max-width: 700px;
+        width: 100%;
+        margin-top: 50px;
+        background:rgba(255, 255, 255, 0.329);
+        box-shadow: 5px 5px 10px 3px grey;   
+    }
+
+    .contact{
+        font-size: 25px;
+        font-weight: 600;
+        position: relative;
+    }
+    form .user-details .input-box{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .user-details .input-box input{
+        height: 30px;
+       border: 2px solid rgb(7, 221, 168);
+
+    }
+}

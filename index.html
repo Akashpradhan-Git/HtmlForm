@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Paint App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="contact">Contact US</div>
+        <form action="#">
+            
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter  your full name">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">UserName</span>
+                    <input type="text" placeholder="Username">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter  email id">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter  your Phone number">
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Date of birth</span>
+                    <input type="date" min="2017-08-15" max="2021-08-26">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Country</span>
+                    <select name="Counntry" id="country">
+                        <option value="0">Country</option>
+                        <option value="1">Fishkeeping</option>
+                        <option value="2">Reading</option>
+                        <option value="3">Boxing</option>
+                        <option value="4">Debate</option>
+                        <option value="5">Gaming</option>
+                        <option value="6">Snooker</option>
+                        <option value="7">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gender">
+                <div class="title">Gender</div>
+                <div class="gen-con">
+                    <div class="warp-gen-radio">
+                        <div class="gen">Male</div>
+                        <input type="radio">
+                    </div>
+
+                    <div class="warp-gen-radio">
+                        <div class="gen">Female</div>
+                        <input type="radio">
+                    </div>
+
+                    <div class="warp-gen-radio">
+                        <div class="gen">Other</div>
+                        <input type="radio">
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="Submit">
+        </form>
+    </section>
+
+</body>
+
+</html>
